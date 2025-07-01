@@ -4,7 +4,7 @@ import RightSide from './components/RightSide'
 
 const App = () => {
   return (
-    <main className='flex items-center justify-center my-7 sm:my-0 sm:justify-normal w-full h-screen'>
+    <main className='flex max-w-[1440px] mx-auto items-center justify-center my-7 sm:my-0 sm:justify-normal w-full h-screen'>
       <LeftSide />
       
       <RightSide />
