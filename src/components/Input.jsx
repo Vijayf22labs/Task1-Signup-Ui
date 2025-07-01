@@ -8,7 +8,7 @@ const Input = ({ name, id, type, label }) => {
             <label className='font-[400] text-[16px] text-[#666666]' htmlFor={name}>{label}</label> :
             <div className='flex items-center justify-between'>
                 <label className='font-[400] text-[16px] text-[#666666]' htmlFor={name}>{label}</label>
-                <p className='text-[18px] text-[#666666] font-[400] flex mr-[10px] items-center gap-x-1'><EyeOff className='size-4' /> Hide</p>
+                <p className='text-[14px] sm:text-[18px] text-[#666666] font-[400] flex mr-[10px] items-center gap-x-1'><EyeOff className='size-4' /> Hide</p>
             </div>
         }
         <input className='border outline-none border-gray-300 rounded-lg py-2 px-3' type={type} id={id} name={name} />
